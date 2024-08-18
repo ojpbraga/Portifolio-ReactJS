@@ -17,24 +17,24 @@ function App() {
       <main className="w-full bg-black/85 backdrop-blur-sm">
         <img src={lights} className="absolute top-[-60px] w-full z-[-1] bg-cover" alt=""/>
         
-        <section className="h-dvh w-full flex flex-col items-center justify-center relative">
-          <div className="flex flex-col items-center  w-full gap-5 px-10 max-[375px]:px-5 ">
+        <section className="h-dvh flex flex-col items-center justify-between">
+          <div className="flex flex-col items-center gap-5 w-5/6">
             {/* <img src="" alt="" /> */}
             {/* Text Presentation */}
-            <div className=" flex flex-col items-center">
-              <h1 className="text-white font-monoton leading-[75px] text-[11.71vw]">Olá! Eu sou<br/><span className="text-[5rem] max-[320px]:text-6xl">João</span></h1>
+            <div className="flex flex-col items-center pt-[12dvh]">
+              <h1 className="text-white font-monoton leading-[75px] text-[11.71vw] md:text-8xl">Olá! Eu sou<br/><span className="text-[5rem] max-[320px]:text-6xl md:text-9xl ">João</span></h1>
               <p className="text-white text-base max-[320px]:hidden">📍Belo Horizonte, MG. Desenvolvedor FrontEnd e UI Design, com foco em Figma, ReactJS e TypeScript.</p>
             </div>
 
             {/* Animation Presentation */}
-            <div className="grid place-items-center">
+            <div className="grid place-items-center xl:w-96">
               <video autoPlay loop muted className="rounded-3xl">
                 <source src={avatar} />
               </video>
             </div>
           </div>
 
-          <div className="text-3xl absolute bottom-2">👇</div>
+          <div className="text-3xl h-12">👇</div>
           
         </section>
 
