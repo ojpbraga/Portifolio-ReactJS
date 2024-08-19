@@ -18,11 +18,11 @@ function App() {
         <img src={lights} className="absolute top-[-60px] w-full z-[-1] bg-cover" alt=""/>
         
         <section className="h-dvh flex flex-col items-center justify-between">
-          <div className="flex flex-col items-center gap-5 w-5/6">
+          <div className="flex flex-col items-center gap-5 w-5/6 md:w-[65vw]">
             {/* <img src="" alt="" /> */}
             {/* Text Presentation */}
             <div className="flex flex-col items-center pt-[12dvh]">
-              <h1 className="font-monoton leading-[75px] text-[11.71vw] md:text-8xl text-[#7799B0]">Olá! Eu sou<br/><span className="text-[11.5dvh] max-[320px]:text-6xl md:text-9xl after:content-['Frontend'] after:text-[0.7rem] relative after:font-sans after:px-[5px] after:py-[2px] after:border-[#C0C0C0] after:border-2 after:rounded-md after:uppercase after:font-bold after:relative after:bottom-[50px] after:text-[#C0C0C0] text-[#00C6C6]">João</span></h1>
+              <h1 className="font-monoton leading-[75px] text-[11.71vw] md:text-7xl text-[#7799B0] md:leading-[95px]">Olá! Eu sou<br/><span className="text-[11.5dvh] max-[320px]:text-6xl md:text-9xl after:content-['Frontend'] after:text-[0.7rem] relative after:font-sans after:px-[5px] after:py-[2px] after:border-[#C0C0C0] after:border-2 after:rounded-md after:uppercase after:font-bold after:relative after:bottom-[50px] after:text-[#C0C0C0] text-[#00C6C6] after:md:left-4 after:md:bottom-16 after:md:text-sm">João</span></h1>
               <p className="text-white text-base max-[320px]:hidden">📍Belo Horizonte, MG. Desenvolvedor FrontEnd e UI Design, com foco em Figma, ReactJS e TypeScript.</p>
             </div>
 
